@@ -1,0 +1,53 @@
+
+.container-my-container {
+    display: flex;
+    flex: 1;
+}
+
+/* Left Panel Styles */
+.left-panel-my-leftpanel {
+    flex: 1;
+    background-color: #4a90e2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-panel-my-leftpanel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.left-panel-my-leftpanel h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+}
+
+/* Right Panel Styles */
+.right-panel-my-rightpanel {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.right-panel-my-rightpanel h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.task-my-task {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
